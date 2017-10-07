@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 
 import ReduxPromise from 'redux-promise';
+import Sparklines from 'react-sparklines';
 
 import App from './components/app';
 import reducers from './reducers';
